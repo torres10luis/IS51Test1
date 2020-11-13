@@ -11,4 +11,32 @@ function one is simpler because it will consist of $100 *  10 which is what is s
 function two will be a more complex because it will have to loop 10 times to represent the 10 days in total and doubling the amount each day till end of 10th day then it will sum everything up
 
 
- """
+"""
+
+""" 
+    for option 1 it will be: $100 * 10 (days)
+        return 100 * 10
+
+    for option 2 it will be:
+        amount = 1 
+        list1 = []
+        then loop the 10 times for the days
+            add the amount to the list1
+            amount = 2
+        sum = the sum of all items in the loop
+        return sum
+
+    main:
+    var1 = option1
+    var2 = option2
+
+    if var1= var2
+        options 1 and 2 will pay the same at the 10th day
+    if var 1 < var2 
+        the option 2 will pay more than option1
+    else: 
+        option1 pays more
+
+main
+    
+"""
